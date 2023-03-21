@@ -1,0 +1,5 @@
+local message = Instance.new(”Message”)
+message.Parent = game.Workspace
+message.Text = “TEXT”
+wait(3)
+message:Remove()
